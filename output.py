@@ -1,4 +1,2 @@
-def calcular_promedio(calificaciones):
-    if not calificaciones:
-        return 0  # Evita divisiones por cero
-    return sum(calificaciones) / len(calificaciones)
+def mostrar_resultado(promedio):
+    print(f"El promedio de calificaciones es: {promedio:.2f}")
